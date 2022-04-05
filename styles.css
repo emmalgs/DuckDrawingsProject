@@ -98,10 +98,6 @@ a {
     font-size: 18px;
 }
 
-a:visited {
-    color: aquamarine;
-}
-
 .body {
     color: #1F2937;
     display: flex;
@@ -162,17 +158,23 @@ figcaption {
 .quoter {
     font-size: 18px;
     font-weight: bold;
-    padding: 20px;
 }
 
 .sign-up {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 12px;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 60px;
     margin: 60px;
+    gap: 16px;
     background-color: #3882F3;
     color:#E5E7EB;
 }
+.text {
+    margin-bottom: 16px;
+}
 
+button.click {
+    border: 1px solid #E5E7EB;
+}
