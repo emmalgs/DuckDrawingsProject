@@ -1,0 +1,15 @@
+header {
+    background-color: #1F2937;
+    color: honeydew;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Roboto', monospace, sans-serif;
+}
+
+a:visited {
+    color: aquamarine;
+}
+
