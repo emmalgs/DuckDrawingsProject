@@ -26,8 +26,9 @@ header img {
     width: 100px;
     height: auto;
     margin: 0;
-    padding: 16px;
-
+    background-color: #E5E7EB;
+    border: 5px solid #E5E7EB;
+    border-radius: 5%;
 }
 
 .hero-text {
@@ -36,21 +37,21 @@ header img {
     justify-content: center;
     align-items: flex-start;
     gap: 16px;
-    padding: 16px;
+    padding: 16px 30px 16px 16px;
 }
 
 .title-bar {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 60px;
 }
 
 .title-image {
-    flex: 1;
     max-width: 400px;
     height: auto;
-    margin: 0;
-    padding: 16px;
+    margin: 20px;
+    border-radius: 2%;
 }
 
 footer {
@@ -80,11 +81,8 @@ ul {
 button {
     background-color: #3882F3;
     color: #E5E7EB;
-    padding: 8px 16px;
-    text-align: center;
-    text-decoration: none;
     border-radius: 8px;
-    font-weight: bold;
+    padding: 8px 40px;
 }
 
 p {
@@ -98,6 +96,9 @@ a {
     font-size: 18px;
 }
 
+a:visited {
+    color: #E5E7EB;
+}
 .body {
     color: #1F2937;
     display: flex;
@@ -145,7 +146,7 @@ figcaption {
     justify-content: center;
     align-items: flex-end;
     flex-direction: column;
-    padding: 30px;
+    padding: 30px 30px 50px 30px;
 }
 
 .quote h1 {
@@ -164,10 +165,9 @@ figcaption {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 16px;
     padding: 60px;
     margin: 60px;
-    gap: 16px;
+    gap: 25px;
     background-color: #3882F3;
     color:#E5E7EB;
 }
