@@ -115,12 +115,13 @@ a:visited {
     display: flex;
     padding: 16px;
     margin: 20px
-    gap: 16px;
 }
 
 .ducks {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .duck {
@@ -135,9 +136,10 @@ figure {
 }
 
 figcaption {
-    text-align: center;
-    font-size: 10px;
-    width: 100px;
+    font-size: 18px;
+    padding: 8px;
+    margin: 0px;
+    width: 200px;
 }
 
 .quote {
