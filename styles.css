@@ -185,8 +185,16 @@ figcaption {
 
 button.click {
     border: 1px solid #E5E7EB;
+    background-color: #3882F3;
+    transition: background-color ease-in-out 3s;
+}
+
+button.click:hover {
+    background-color: limegreen;
+    cursor: crosshair;
 }
 
 .button-wrapper {
 
 }
+
